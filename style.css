@@ -1,0 +1,86 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+.container {
+	display: flex;
+}
+
+#startscreen {
+	display: block;
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	background: #f9ddbd;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 3px 3px 0 #000;
+}
+#startscreen > h3 {
+	font-size: 6em;
+}
+#startscreen > h4 {
+	position: absolute;
+	bottom: 15%;
+	left: 25%;
+	font-size: 3em;
+	border: 2px solid #888;
+	box-shadow: 3px 3px 0 #000;
+	width: 50%;
+	background: rgba(0,0,255,0.4);
+}
+#startscreen p {
+	font-family: 'Font Awesome 5 Solid';
+	font-weight: 900;
+	margin: 50px;
+}
+
+.fa-spinner {
+	color: rgba(0,0,255,0.4);
+}
+.fa-smile {
+	color: rgba(0,0,255,0.4);
+}
+
+#gameBoard {
+	background: url('https://i.imgur.com/obPYB5T.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 3px 3px 0 #000;
+	width: 850px;
+	height: 800px;
+	margin: 0 auto;
+	padding: 12px;
+	display: none;
+}
+
+#gameBoard > div {
+	background: #33f;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 20px 6px 20px 6px;
+	padding: 5px;
+			font-family: 'Font Awesome 5 Brands';
+		font-weight: 900;
+	text-align: center;
+	float: left;
+	font-size: 5em;
+	opacity: 1;
+}
+
+#status {
+	font-size: 2em;
+	width: 300px;
+	height: 400px;
+	box-shadow: 3px 3px 0 #888;
+	background: rgba(0,0,255,0.4);
+	text-align: center;
+	display: none;
+}
+#music {
+	display: none;
+}
+
+
+
