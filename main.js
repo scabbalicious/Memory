@@ -23,7 +23,7 @@ Array.prototype.shuffle = function(){ //use Fisher-Yates shuffle method for card
 		array[k] = j //random cards selected from array and placed at back of the array, until stack is complete
 	}
 }
-window.addEventListener("click", function(event){
+document.getElementById("startscreen").addEventListener("click", function(event){
 	var begin = new Audio("assets/Beginning.mp3")
 	begin.play()
 }, {once: true})
